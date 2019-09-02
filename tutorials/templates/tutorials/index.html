@@ -1,0 +1,32 @@
+{% extends 'tutorials/base.html' %}
+
+
+{% block body %}
+    <a href="{% url 'form'%}"> + Add</a> <a href="{% url 'logout' %}">Logout</a> <a href="{% url 'index' %}">Refresh</a>
+    <form method="get">
+        <input type="text" name="q"  placeholder="search..."/>
+        <input type="submit" value="Search"/>
+    </form>
+    {% if albums %}
+        <h1>These are list of all Available Albums</h1>
+        <ul>
+        {% for album in albums %}
+           <li> <a href="{% url 'details' album.id %}">{{ album.album_title }}--{{ album.artist }}</a>// <a href="{% url 'delete' album.id %}">Delete</a> </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h3>You dont have any albums yet</h3>
+    {% endif %}
+
+    <h2>Here are your Favourite Songs</h2>
+    {% for favourite in favourites %}
+        {{ favourite.song_title }}<br>
+    {% endfor %}
+
+    {% if songs %}
+        <h2>Related Songs according to the Query:</h2>
+        {% for song in songs %}
+            {{ song.song_title }} <a href="{% url 'details' song.album.id %}"> Go to album</a><br>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

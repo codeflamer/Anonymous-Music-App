@@ -1,0 +1,23 @@
+
+{% extends 'tutorials/base.html' %}
+{% block title %} Add songs {% endblock %}
+
+{% block body %}
+     <a href="{% url 'index' %}">Home</a>
+     <a href="{% url 'details' album.id %}">Back</a>
+    <br>
+    {% if error_message %}
+        <span class="red">{{ error_message }}</span>
+    {% endif %}
+
+    {% if error_messages1 %}
+        <span class="red">{{ error_messages1 }}</span>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit"  value="Add">
+    </form>
+
+
+{% endblock %}

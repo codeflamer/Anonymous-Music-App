@@ -1,0 +1,14 @@
+
+body{
+    background-color: rgba(255, 129, 234, 0.23);
+}
+
+#red{
+    color:red;
+}
+
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+

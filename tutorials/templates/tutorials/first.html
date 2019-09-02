@@ -1,0 +1,4 @@
+
+{% for album in all_albums %}
+    <li><a href="{% url 'detailview' album.id %}">{{ album.album_title }}</a></li>
+{% endfor %}

@@ -1,0 +1,20 @@
+{% extends 'tutorials/base.html' %}
+{% block title %}Forms{% endblock %}
+
+{% block body %}
+        <a href="{% url 'index' %}">Home</a>
+        <br>
+        {% if error_messages %}
+            <span id="red">{{ error_messages }}</span>
+        {% endif %}
+
+        {% if error_messages2 %}
+            <span id="red">{{ error_messages1 }}</span>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" >
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="submit">
+        </form>
+{% endblock %}

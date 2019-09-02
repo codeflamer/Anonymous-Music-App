@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'tutorials/styles.css' %}"/>
+    <meta charset="UTF-8">
+   
+    <title>{% block title %}Viberr{% endblock %}</title>
+</head>
+<body>
+    <div class="row">
+   {% block  body %}
+   
+   {% endblock %}
+    </div>
+</body>
+</html>

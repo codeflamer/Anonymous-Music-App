@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <h1> Details of {{ object.album_title }}</h1>
+
+    <ul>
+        <li>Artist - {{ object.artist }}</li>
+        <li>Genre - {{ object.genre }}</li>
+        <li>Artist - {{ object.album_logo }}</li>
+    </ul>
+    {% if error_message %}
+        <span id="red">{{ error_message }}</span>
+    {% endif %}
+    <h2>Here are all the songs</h2>
+    {% if object.song_set.all %}
+        {% for song in object.song_set.all %}
+           {{ song.song_title }}<br>
+        {% endfor %}
+    {% else %}
+        there are no songs yet under this album
+    {% endif %}
+</body>
+</html>

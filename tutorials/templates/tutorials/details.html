@@ -1,0 +1,38 @@
+
+{% extends 'tutorials/base.html' %}
+{% block title %}Album details{% endblock %}
+
+{% block body %}
+    <a href="{% url 'index' %}">Home</a>
+    <a href="{% url 'update' object.id %}">update</a>
+    <h1> Details of {{ object.album_title }}</h1>
+    <div class="images">
+        <img src="{{ object.album_logo.url }}" />
+    </div>
+
+    <ul>
+        <li>Artist - {{ object.artist }}</li>
+        <li>Genre - {{ object.genre }}</li>
+    </ul>
+    {% if error_message %}
+        <span id="red">{{ error_message }}</span>
+    {% endif %}
+    <h2>Here are all the songs  <a href="{% url 'addtosong' object.id %}">+ Add to song</a></h2><br>
+    {% if object.song_set.all %}
+        {% for song in object.song_set.all %}
+            {% if song.is_favourite %}
+                <input type="checkbox" checked>
+            {% else %}
+                 <input type="checkbox" unchecked>
+            {% endif %}
+
+           {{ song.song_title }}
+            <audio controls>
+		        <source src="{{ song.real_song.url }}" type="audio/mpeg" >
+		    </audio>
+            -- <a href="{% url 'deletesong' number=song.album.id song=song.song_title %}">Delete Song</a><br>
+        {% endfor %}
+    {% else %}
+        there are no songs yet under this album
+    {% endif %}
+{% endblock %}
