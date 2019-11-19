@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tutorials',
-    'rest_framework'
+    'rest_framework',
+    'deezer',
+    'OtherAip'
 ]
 
 MIDDLEWARE = [
@@ -114,6 +116,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOGIN_URL = '/home/login/'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
@@ -123,4 +127,8 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'tutorial/media')
+
+EMAIL_HOST = 'localhost'
+
+EMAIL_PORT = 1026
 

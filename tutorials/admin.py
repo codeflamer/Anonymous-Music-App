@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Album,Song
+from .models import Album, Song, Newplaylist,Profile
 
 
 class AlbumModel(admin.ModelAdmin):
@@ -19,4 +19,6 @@ class AlbumModel(admin.ModelAdmin):
 
 admin.site.register(Album,AlbumModel)
 admin.site.register(Song)
+admin.site.register(Newplaylist)
+admin.site.register(Profile)
 # Register your models here.

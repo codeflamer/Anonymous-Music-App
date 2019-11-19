@@ -1,0 +1,19 @@
+{% extends 'tutorials/base.html' %}
+
+{% block body %}
+    <a href="{% url 'index' %}">Home</a>
+<a href="{% url 'edit_profile' %}">Edit</a>
+<a href="{% url 'change_password' %}">change Password</a>
+    {% if messages %}
+	    {% for message in messages %}
+	        <h2>{{ message }}</h2>
+        {% endfor %}
+    {% endif %}
+    <br>
+    picture :<img src="{{ user.profile.profile_image.url }}"/><br>
+
+    username: {{ user.username }}<br>
+    email: {{ user.email }}<br>
+    firstname: {{ user.first_name }}<br>
+    username: {{ user.last_name }}<br>
+{% endblock %}

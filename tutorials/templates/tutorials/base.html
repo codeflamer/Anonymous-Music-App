@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    {% load staticfiles %}
+    {% block statics %}
+        {% load staticfiles %}
+    {% endblock %}
     <link rel="stylesheet" type="text/css" href="{% static 'tutorials/styles.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'tutorials/audio_payer.css' %}"/>
     <meta charset="UTF-8">
    
     <title>{% block title %}Viberr{% endblock %}</title>
@@ -14,5 +17,13 @@
    
    {% endblock %}
     </div>
+
+<script src="{% static 'tutorials/js/jquery.js' %}"></script>
+<script src="{% static 'tutorials/SM2/script/soundmanager2.js' %}" ></script>
+{% block javascript %}
+
+{% endblock %}
+
+
 </body>
 </html>

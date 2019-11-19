@@ -1,15 +1,617 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/tutorials/models.py" line="26" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="12a2d8b1-b562-458b-acf4-83975949a685" name="Default Changelist" comment="" />
+    <list default="true" id="12a2d8b1-b562-458b-acf4-83975949a685" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OtherAip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/templates/OtherAip/AllCollection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAip/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/150x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/Taiwo_TOLU_PASSPORT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous1_25CepMq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous1_71zeIaU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous1_NoXTn5S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous2_8H1bT9y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous2_QVJaQyO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous2_RZvhT93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/anonymous2_ly6RDl3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/black-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-10_9qMfPHG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-10_C54ftJX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-10_DkIYaFa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-25_ena3bdk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-25_gNC6IEZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/black-33_r2UMj4V.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/clement-h-544786-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/pool_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/pool_table_pmb0Vy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/textured_paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/textured_paper_Cqwe39S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/textured_paper_wd1nkMs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/wood_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/media/wood_pattern_sqeOARj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/06_eye_adaba.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/08_Kinihun_De.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/08_Kinihun_De_GEI1tgG.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Ariana_Grande-One_Last_Time.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Can_we_talk.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Gbati_jesu_ba_de.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Kalimba_sk7NRbh.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Lee_Sun_Hee_-_Fateplayvkcom.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Lee_Sun_Hee_-_Wind_Flower_rgQvdEZ.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/SENSE-BEAT-MILK.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Sleep_Away_1TuGMMZ.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Tye_Tribbett_-_Beauty_For_Ashes_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/Tye_Tribbett_-_Beauty_For_Ashes_2_UyFHkpk.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/bitch.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/bitch_ZbG7FVQ.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/cellin.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/cellin_YscQgjI.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/cellin_kt62PVD.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/drake.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/drake_CFiOJIp.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/drake_z82yMdz.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/eminem.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/eminem_fCaf8su.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/ifGod.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/mason.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/mason_3CpIyWB.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/mason_i3ZEYcn.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/olomi__d76WOSo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/post.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/post_7vwr1JG.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/post_aftcXap.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/sunflower.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/sunflower_qBBdHne.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/tope_alabi-Talo_Dabii_Re.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/whatcani.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/music/whatcani_2ni0ZLs.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/media/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1243.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/migrations/0009_auto_20190929_2014.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/migrations/0010_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360 button (retina - not playing).psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360 button (retina - playing).psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360 button - large.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360 button.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause-light-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play-light-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-pause-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-pause-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-pause.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-play-light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-play-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-play.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360-button-vis-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360player-visualization.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/360player.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/canvas-visualization-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/canvas-visualization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/demo-slider-controls.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/demo-slider-controls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/icon_loading_dots.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/icon_loading_spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/icon_loading_spinner_bigger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/script/360player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/script/berniecode-animator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/360-player/script/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/360ui-screenshot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/360ui-screenshot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/360ui-screenshot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/360ui-screenshot4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/armor-alley-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/cassette-tape-ui-screenshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/cassette-tape-ui-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/christmas-lights.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/christmas-lights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/chunk-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/chunk-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/chunk-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/dejavusansmono-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/dejavusansmono-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/fitter-happier-waveform.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/fitter-happier-waveform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/flash9-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/flash9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/getsatisfaction-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/glyphish-dot-com-icons-and-android-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/hue_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/logo-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/mpc-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/muxtape-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/new-bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/new-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/noise-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/noise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/picker_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/slider-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/slider-bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/soundmanager2-speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/survivor-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/tiny_grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-1920x500-bw.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-1920x500-h264-512kbps-bw.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-1920x500-h264-512kbps-h264.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-960-22f-32c-03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-960-27f.apng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/turntable-loop-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/wedge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/wheelsofsteel-full-ui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_image/wheelsofsteel-single-deck-256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/1hz-10khz-sweep.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/440hz.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/880hz.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/background0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/background1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/background2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/bass.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/button-0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/button-1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/click-high.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/click-low.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/coins.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/fancy-beer-bottle-pop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/going_outside.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/mak.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/mouseover.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/mouseover2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/mouseover3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/office_lobby.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/rain.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/select.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/sine, square, sawtooth, rando.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/_mp3/walking.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-1/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-1/image/ball.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-1/script/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/bg-land.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/bg-sky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-10.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-11.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-3.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-4.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-5.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-6.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-7.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-8.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-9.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/cursor-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2a/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/audio/bonk.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/audio/fingerplop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/audio/fingerplop2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/image/ball.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/image/point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation-2b/script/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation/audio/bonk.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation/audio/fingerplop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation/audio/fingerplop2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/animation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/css/bar-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/black-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/black-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/black-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/shuffle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/PNG/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/first.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/last.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/list2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-000000/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/shuffle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/PNG/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/first.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/last.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/list2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/entypo-25px-ffffff/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/free-25px-000000/PNG/spinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/free-25px-000000/SVG/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/free-25px-ffffff/PNG/spinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/icomoon/free-25px-ffffff/SVG/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/pinstriped_suit_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/pool_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/rubber_grip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/tasky_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/textured_paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/tweed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/wood_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/wood_pattern_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/image/patterns/woven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/script/bar-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/bar-ui/script/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/css/cassette-tape-ui-blur-nojs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/css/cassette-tape-ui-blur.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/css/cassette-tape-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/JustAnotherHand_ttf_font_LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/justanotherhand-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/justanotherhand-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/justanotherhand-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/ostrich-rounded-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/ostrich-rounded-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/ostrich-rounded-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/font/ostrich-rounded-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/MA-R90 metal pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/TDK MA-R90 body.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/Tape Mask.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/metalspool.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/metalspoolblack.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/rail-middle-outline-edited.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/tape-screw-dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/_src/tape-screw.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/black-micro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/body-texture-strips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/demo_backgrounds/sfatnight_1600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/ma-r90-body-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/ma-r90-mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/ma-r90-metal-pattern-v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/rail-middle-outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/spool-metal-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/spool-metal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/spool-spokes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/tape-guide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/tape-screw-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/tape-screw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/image/tape-texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/more.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/script/cassette-tape-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/cassette-tape/script/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/christmaslights.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/christmaslights.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bg-strip-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-32x32-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-32x32-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-32x32-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-32x32-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50-fragments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-50x50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-64x64-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-64x64-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-64x64-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-64x64-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-72x72-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-72x72-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-72x72-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-72x72-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-96x96-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-96x96-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-96x96-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/bulbs-96x96-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/image/noise-pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/christmas-lights/sound/glass5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/debug.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/flashblock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/method1/flashblock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/method1/flashblock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/flashblock/method1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/index-rollup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/index-rollup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/css/mp3-player-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-black-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-black.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-white-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-white.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/image/arrow-right-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mp3-player-button/script/mp3-player-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/acoustic-drumkit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_BD_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_FTM2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_HHCL.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_HHOP.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_HHPD.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_HTM.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_LTM2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_MTM.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_RIM1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_SN13.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/AMB_SN_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/CHINA_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/CRASH_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/CRASH_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/CRASH_6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/RIDE_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/RIDE_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/audio/SPLASH_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/css/mpc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/image/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/mpc/script/mpc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/css/optional-annotations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/css/optional-themes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/css/page-player.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/image/divot-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/image/divot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/image/top-highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/script/optional-page-player-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/script/page-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/page-player/xbm-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/css/inlineplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/image/icon_pause.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/image/icon_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/image/icon_play.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/image/icon_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/image/test.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/play-mp3-links/script/inlineplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/deferred-example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/html5-dtd-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/sm2_defer-example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/template/xhtml-test.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/audio/record-noise-1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/audio/record-noise-2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/css/turntable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/background-pattern-credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/platter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/power-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/record-grooves-1440x1440-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/slipmat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/textures/pinstriped_suit_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/textures/textured_paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/textures/wood_pattern_dark_color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_33_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_45_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_arm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_case_and_lighting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_lightoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_lighton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_powerdial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_speedon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_startstop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/image/tt_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/script/turntable-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/demo/turntable/script/turntable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/download/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/download/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/SoundManager2_AS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/SoundManager2_AS3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/SoundManager2_SMSound_AS3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/aller-light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/novecento-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/novecento-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/fonts/novecento-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/public/stylesheets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/generated/soundmanager2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/getstarted/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/doc/technotes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/script/soundmanager2-jsmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/script/soundmanager2-nodebug-jsmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/script/soundmanager2-nodebug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/script/soundmanager2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/SoundManager2.as" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/SoundManager2_AS3.as" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/SoundManager2_SMSound_AS3.as" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/make-flash8.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/make-flash8.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/make-flash9.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/src/make-flash9.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/swf/soundmanager2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/swf/soundmanager2_debug.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/swf/soundmanager2_flash9.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/swf/soundmanager2_flash9_debug.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/swf/soundmanager2_flash_xdomain.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/troubleshoot/debug.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/troubleshoot/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/troubleshoot/fpgss-add-location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/troubleshoot/fpgss-added-location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/SM2/troubleshoot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/audio_payer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/credits.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/shuffle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/PNG/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/first.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/last.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/list2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-000000/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/first.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/last.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/shuffle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/PNG/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/first.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/last.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/list2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/entypo-25px-ffffff/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/free-25px-000000/PNG/spinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/free-25px-000000/SVG/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/free-25px-ffffff/PNG/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/free-25px-ffffff/PNG/spinner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/icomoon/free-25px-ffffff/SVG/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/images/black-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/images/black-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/images/black-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/photos/anonymous1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/photos/anonymous2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/photos/star2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/static/tutorials/photos/starimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/playlist_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/playlists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/static/tutorials/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/static/tutorials/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/templates/tutorials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/templates/tutorials/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/templates/tutorials/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/templates/tutorials/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/templates/tutorials/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -18,38 +620,50 @@
     <session id="-886371030">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.142" value="1" />
+          <entry key="project.open.time.166" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2380" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="19" />
-          <entry key="py" value="30" />
+          <entry key="css" value="7" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="51" />
+          <entry key="js" value="2" />
+          <entry key="py" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="19" />
-          <entry key="Python" value="30" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="51" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="213" />
-          <entry key="html" value="2594" />
-          <entry key="py" value="8256" />
+          <entry key="css" value="693" />
+          <entry key="html" value="9332" />
+          <entry key="py" value="14417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="213" />
-          <entry key="HTML" value="2594" />
-          <entry key="Python" value="8256" />
+          <entry key="CSS" value="693" />
+          <entry key="HTML" value="9332" />
+          <entry key="Python" value="14417" />
         </counts>
       </usages-collector>
     </session>
@@ -57,94 +671,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding>
-                <element signature="e#632#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorials/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#0#85#0" expanded="true" />
+                <element signature="e#0#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorial/settings.py">
+        <entry file="file://$PROJECT_DIR$/tutorials/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/addsongs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/second.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tutorials/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
-                <marker date="1566991924585" expanded="true" signature="294:564" ph="..." />
-                <marker date="1566991924585" expanded="true" signature="605:1347" ph="..." />
-                <marker date="1566991924585" expanded="true" signature="1444:1582" ph="..." />
-                <marker date="1566991924585" expanded="true" signature="1747:1756" ph="..." />
-                <marker date="1566991924585" expanded="true" signature="1846:1892" ph="..." />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,9 +699,83 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tutorials/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <marker date="1566336443990" expanded="true" signature="117:123" ph="..." />
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1571177753541" expanded="true" signature="945:1153" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAip/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/playlist_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3468">
+              <caret line="204" column="30" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAip/templates/OtherAip/AllCollection.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAip/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorials/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1571051201483" expanded="true" signature="374:644" ph="..." />
+                <marker date="1571051201483" expanded="true" signature="685:1427" ph="..." />
+                <marker date="1571051201483" expanded="true" signature="1524:1662" ph="..." />
+                <marker date="1571051201483" expanded="true" signature="1827:1836" ph="..." />
+                <marker date="1571051201483" expanded="true" signature="1926:1972" ph="..." />
               </folding>
             </state>
           </provider>
@@ -174,26 +792,43 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sm2-playlist</find>
+      <find>sm2-playlist-wrapper</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tutorials/templates/tutorials/first.html" />
         <option value="$PROJECT_DIR$/tutorials/templates/tutorials/second.html" />
         <option value="$PROJECT_DIR$/tutorials/templates/forms.py" />
-        <option value="$PROJECT_DIR$/tutorial/urls.py" />
-        <option value="$PROJECT_DIR$/tutorials/static/tutorials/styles.css" />
-        <option value="$PROJECT_DIR$/tutorial/settings.py" />
         <option value="$PROJECT_DIR$/tutorials/serializers.py" />
-        <option value="$PROJECT_DIR$/tutorials/admin.py" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/addsongs.html" />
+        <option value="$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1239.py" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/playlists.html" />
         <option value="$PROJECT_DIR$/tutorials/urls.py" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/base.html" />
+        <option value="$PROJECT_DIR$/tutorials/static/tutorials/audio_payer.css" />
+        <option value="$PROJECT_DIR$/tutorials/static/tutorials/styles.css" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/playlist_details.html" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/details.html" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/forms.html" />
+        <option value="$PROJECT_DIR$/tutorials/admin.py" />
+        <option value="$PROJECT_DIR$/tutorials/models.py" />
+        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/profile.html" />
+        <option value="$PROJECT_DIR$/tutorials/views.py" />
         <option value="$PROJECT_DIR$/tutorials/templates/tutorials/index.html" />
         <option value="$PROJECT_DIR$/tutorials/forms.py" />
-        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/base.html" />
-        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/forms.html" />
-        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/details.html" />
-        <option value="$PROJECT_DIR$/tutorials/templates/tutorials/addsongs.html" />
-        <option value="$PROJECT_DIR$/tutorials/views.py" />
-        <option value="$PROJECT_DIR$/tutorials/models.py" />
+        <option value="$PROJECT_DIR$/tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/tutorial/urls.py" />
+        <option value="$PROJECT_DIR$/OtherAip/urls.py" />
+        <option value="$PROJECT_DIR$/OtherAip/views.py" />
+        <option value="$PROJECT_DIR$/OtherAip/templates/OtherAip/AllCollection.html" />
       </list>
     </option>
   </component>
@@ -203,12 +838,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/tutorials/static/tutorials/SM2/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="89" />
-    <option name="y" value="131" />
+    <option name="x" value="192" />
+    <option name="y" value="84" />
     <option name="width" value="753" />
     <option name="height" value="637" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -230,15 +871,7 @@
             <path>
               <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +883,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tutorial" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -305,30 +938,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info anchor="top" id="Database" order="0" side_tool="true" weight="0.3293718" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15960665" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16641453" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2569558" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.20713073" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,21 +985,10 @@
     <entry file="file://$PROJECT_DIR$/tutorials/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/static/tutorials/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tutorial/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/tests.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/rest_framework/status.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/first.html">
@@ -366,38 +998,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/forms.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1215.py" />
+    <entry file="file://$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1220.py" />
+    <entry file="file://$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1223.py" />
+    <entry file="file://$PROJECT_DIR$/tutorials/migrations/0008_auto_20190923_1239.py" />
+    <entry file="file://$PROJECT_DIR$/tutorials/migrations/0007_auto_20190827_1438.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <marker date="1566913218051" expanded="true" signature="281:639" ph="..." />
-            <marker date="1566913218051" expanded="true" signature="672:673" ph="..." />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="87" selection-start-line="5" selection-end-line="5" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="120" selection-start-line="4" selection-start-column="120" selection-end-line="4" selection-end-column="120" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tutorials/static/tutorials/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/second.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -406,43 +1022,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/serializers.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/static/tutorials/audio_payer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1566336443990" expanded="true" signature="117:123" ph="..." />
-          </folding>
+        <state relative-caret-position="864">
+          <caret line="1002" column="1" selection-start-line="1002" selection-start-column="1" selection-end-line="1002" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/static/tutorials/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/settings.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="6" selection-start-column="8" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/urls.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="986">
+          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/playlists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/addsongs.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -451,37 +1101,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/urls.py">
+    <entry file="file://$PROJECT_DIR$/tutorial/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="646">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/templates/tutorials/playlist_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="204" column="30" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/templates/OtherAip/AllCollection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAip/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+            <marker date="1571051201483" expanded="true" signature="374:644" ph="..." />
+            <marker date="1571051201483" expanded="true" signature="685:1427" ph="..." />
+            <marker date="1571051201483" expanded="true" signature="1524:1662" ph="..." />
+            <marker date="1571051201483" expanded="true" signature="1827:1836" ph="..." />
+            <marker date="1571051201483" expanded="true" signature="1926:1972" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorials/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#0#85#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorials/models.py">
+    <entry file="file://$PROJECT_DIR$/tutorials/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="102">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorials/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1566991924585" expanded="true" signature="294:564" ph="..." />
-            <marker date="1566991924585" expanded="true" signature="605:1347" ph="..." />
-            <marker date="1566991924585" expanded="true" signature="1444:1582" ph="..." />
-            <marker date="1566991924585" expanded="true" signature="1747:1756" ph="..." />
-            <marker date="1566991924585" expanded="true" signature="1846:1892" ph="..." />
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1571177753541" expanded="true" signature="945:1153" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,352 @@
+
+{% extends 'tutorials/base.html' %}
+{% block statics %}
+        {% load staticfiles %}
+{% endblock %}
+
+
+{% block title %}playlist details{% endblock %}
+{% block body %}
+    <a href="{% url 'playlist' %}">Back</a>
+    <h1 style="text-align: center">{{ playlist.name }}</h1>
+    <h2>Songs in the playlist</h2>
+    <!--start-->
+
+    {% if playlist.songs.all %}
+
+    <div class="sm2-playlist-cover">
+        <ul class="sm2-playlist-back">
+             {% for song in playlist.songs.all %}
+                 <div id="{{ forloop.counter }}">
+                    <h3>{{ forloop.counter }}. {{ song.song_title }}</h3>
+                    <li class="theli"><a  id={{ forloop.counter }}><span class="label">Play</span></a></li>
+                    <span><a href="{% url 'addorremoveplaylist' alpha='remove' num=song.id  playlist=playlist.name %}">Remove</a></span>
+                 </div>
+                 <hr>
+            {% endfor %}
+        </ul>
+    </div>
+    <br>
+
+{% else %}
+        there are no songs yet under this album
+{% endif %}
+
+    <!--end-->
+
+{#    player start#}
+
+
+	<div class="sm2-bar-ui full-width fixed">
+
+ <div class="bd sm2-main-controls">
+
+  <div class="sm2-inline-texture"></div>
+  <div class="sm2-inline-gradient"></div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#play" class="sm2-inline-button sm2-icon-play-pause">Play / pause</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-inline-status">
+
+   <div class="sm2-playlist">
+    <div class="sm2-playlist-target">
+     <!-- playlist <ul> + <li> markup will be injected here -->
+     <!-- if you want default / non-JS content, you can put that here. -->
+     <noscript><p>JavaScript is required.</p></noscript>
+    </div>
+   </div>
+
+   <div class="sm2-progress">
+    <div class="sm2-row">
+    <div class="sm2-inline-time">0:00</div>
+     <div class="sm2-progress-bd">
+      <div class="sm2-progress-track">
+       <div class="sm2-progress-bar"></div>
+       <div class="sm2-progress-ball"><div class="icon-overlay"></div></div>
+      </div>
+     </div>
+     <div class="sm2-inline-duration">0:00</div>
+    </div>
+   </div>
+
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element sm2-volume">
+   <div class="sm2-button-bd">
+    <span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+    <a href="#volume" class="sm2-inline-button sm2-volume-control"><span> yy</span>volume</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#prev" title="Previous" class="sm2-inline-button sm2-icon-previous">&lt; previous</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#next" title="Next" class="sm2-inline-button sm2-icon-next">&gt; next</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#repeat" title="Repeat playlist" class="sm2-inline-button sm2-icon-repeat">&infin; repeat</a>
+   </div>
+  </div>
+
+
+  <!-- not implemented -->
+  <!--
+  <div class="sm2-inline-element sm2-button-element disabled">
+   <div class="sm2-button-bd">
+    <a href="#shuffle" title="Shuffle" class="sm2-inline-button sm2-icon-shuffle">shuffle</a>
+   </div>
+  </div>
+  -->
+
+
+
+  <div class="sm2-inline-element sm2-button-element sm2-menu">
+   <div class="sm2-button-bd">
+    <a href="#menu" class="sm2-inline-button sm2-icon-menu">menu</a>
+   </div>
+  </div>
+
+ </div>
+
+ <div class="bd sm2-playlist-drawer sm2-element">
+
+  <div class="sm2-inline-texture">
+   <div class="sm2-box-shadow"></div>
+  </div>
+
+
+
+ </div>
+
+</div>
+
+
+{#    player ends#}
+
+{% block javascript %}
+<script>
+    $('.sm2-menu').on('click',function(){
+		$('.sm2-playlist-wrapper').css('display','block')
+	});
+
+    var audio = [];
+    // Array of files you'd like played
+    audio.playlist = [
+        '',
+        {% for song in playlist.songs.all %}
+            '{{ song.real_song.url }}',
+        {% endfor %}
+    ];
+
+    function playAudio(playlistId){
+    // Default playlistId to 0 if not supplied
+    playlistId = playlistId ? playlistId : 1;
+    // If SoundManager object exists, get rid of it...
+    if (audio.nowPlaying){
+        audio.nowPlaying.destruct();
+        // ...and reset array key if end reached
+        if(playlistId === audio.playlist.length){
+            playlistId = 1;
+        }
+
+    }
+    // Standard Sound Manager play sound function...
+    soundManager.onready(function() {
+        audio.nowPlaying = soundManager.createSound({
+            id: playlistId,
+            url: audio.playlist[playlistId],
+            autoLoad: true,
+            autoPlay: true,
+            volume: 100,
+            // ...with a recursive callback when play completes
+            whileplaying:function(){
+   				//Beginning
+   				$(".sm2-progress .sm2-progress-bar").css('width', ((this.position/this.duration) * 100) + '%');
+   				var second = Math.floor(this.position/1000);
+   				var minute=Math.floor(second/60);
+   				second %=60;
+   				minute %=60;
+   				second=(second < 10)?'0'+second:second;
+   				minute=(minute < 10)?'0'+minute:minute;
+   				var timecount=document.querySelector('.sm2-inline-time');
+   				timecount.innerHTML = minute+':'+second;
+
+   				var secs=Math.floor(this.duration/1000);
+				var mins=Math.floor(secs/60);
+				mins %=60;
+				secs %=60;
+				mins=(mins <10)?'0'+mins:mins;
+				var value = document.querySelector('.sm2-inline-duration');
+				value.innerHTML=mins+':'+secs
+	  			//end
+
+	  			//beginning
+	  			$('.sm2-playlist-back div#'+playlistId).addClass('sm-sections');//one
+	  			//end
+	  		},
+            onfinish: function(){
+            	$('.sm2-playlist-back div#'+playlistId).removeClass('sm-sections');//one
+            	if (repeat === true){
+            		playAudio(playlistId);
+            		return false;
+            	}
+                playlistId ++;
+                listy.splice(0,listy.length);
+                listy.push(playlistId);
+                playAudio(playlistId);
+            },
+            onstop:function(){
+            	$('.sm2-playlist-back div#'+playlistId).removeClass('sm-sections');//one
+            },
+        });
+
+        var mouse = document.querySelector('.sm2-progress');
+	  	mouse.addEventListener('mousedown',function(){
+	  		console.log(audio.nowPlaying.duration);
+	  		audio.nowPlaying.setPosition(190000);
+	  	});
+
+        $('.reduce').on('click',function(){
+        	audio.nowPlaying.setPlaybackRate(0.5);
+        });
+         $('.normal').on('click',function(){
+        	audio.nowPlaying.setPlaybackRate(1);
+        });
+          $('.fast').on('click',function(){
+        	audio.nowPlaying.setPlaybackRate(4.0);
+        });
+
+    });
+
+}
+
+var listy = []
+$('.sm2-playlist-back li a').on('click',function(){
+	listy.splice(0,listy.length);
+	listy.push(this.getAttribute('id'));
+	playAudio(this.getAttribute('id'));
+});
+
+ $('.sm2-inline-button.sm2-icon-next').on('click',function(){
+ 	$('.sm2-playlist-back div#'+ Number(listy[0])).removeClass('sm-sections');//one
+ 	$('.sm2-playlist-back div#'+ Number(listy[0])+1).addClass('sm-sections');//one
+ 	if (repeat === true){
+        playAudio(Number(listy[0]));
+		return false;
+	};
+ 	if (listy.length === 0){
+ 		alert('Empty Playlist');
+ 		return false;
+ 	};
+	var current = Number(listy[0])+1;
+	if(current > audio.playlist.length-1){
+		current = 1;
+	}
+	listy.splice(0,listy.length);
+	listy.push(current);
+	playAudio(Number(listy[0]));
+});
+
+$('.sm2-inline-button.sm2-icon-previous').on('click',function(){
+         $('.sm2-playlist-back div#'+ Number(listy[0])).removeClass('sm-sections');
+	 	$('.sm2-playlist-back div#'+ Number(listy[0])-1).addClass('sm-sections');
+		if (repeat === true){
+	        playAudio(Number(listy[0]));
+			return false;
+		};
+		if (listy.length === 0){
+	 		alert('Empty Playlist');
+	 		return false;
+	 	}
+		var current = Number(listy[0])-1;
+		if(current < 1){
+			current = audio.playlist.length-1;
+		}
+		listy.splice(0,listy.length);
+		listy.push(current);
+		playAudio(Number(listy[0]));
+});
+
+var repeat = false;
+$('.sm2-inline-button.sm2-icon-repeat').on('click',function(){
+	$(this).toggleClass('onrepeat');
+	if (repeat === false){
+		repeat = true;
+		alert(repeat);
+		return false;
+	}
+	repeat = false;
+	alert(repeat);
+
+});
+
+$('.sm2-inline-button.sm2-icon-play-pause').on('click',function(){
+	audio.nowPlaying.togglePause();
+});
+
+document.onkeypress = function(myEvent) {
+    	if(myEvent.key === 'm' || myEvent.key === 'M' ){
+    		audio.nowPlaying.toggleMute();
+    	}
+    	if(myEvent.key === 'n' || myEvent.key === 'N' ){
+    		$('.sm2-playlist-back div#'+ Number(listy[0])).removeClass('sm-sections');//one
+		 	$('.sm2-playlist-back div#'+ Number(listy[0])+1).addClass('sm-sections');//one
+		 	if (repeat === true){
+		        playAudio(Number(listy[0]));
+				return false;
+			};
+		 	if (listy.length === 0){
+		 		alert('Empty Playlist');
+		 		return false;
+		 	};
+			var current = Number(listy[0])+1;
+			if(current > audio.playlist.length-1){
+				current = 0;
+			}
+			listy.splice(0,listy.length);
+			listy.push(current);
+			playAudio(Number(listy[0]));
+		};
+    	if(myEvent.key === 'p' || myEvent.key === 'P' ){
+    		$('.sm2-playlist-back div#'+ Number(listy[0])).removeClass('sm-sections');//one
+		 	$('.sm2-playlist-back div#'+ Number(listy[0])-1).addClass('sm-sections');
+			if (repeat === true){
+		        playAudio(Number(listy[0]));
+				return false;
+			};
+			if (listy.length === 0){
+		 		alert('Empty Playlist');
+		 		return false;
+		 	}
+			var current = Number(listy[0])-1;
+			if(current < 0){
+				current = audio.playlist.length-1;
+			}
+			listy.splice(0,listy.length);
+			listy.push(current);
+			playAudio(Number(listy[0]));
+	    }
+    	if(myEvent.key === ' '){
+    		audio.nowPlaying.togglePause();
+    	};
+};
+
+
+</script>
+{% endblock %}
+
+
+
+{% endblock %}

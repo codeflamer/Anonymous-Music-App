@@ -3,10 +3,13 @@
 
 {% block body %}
     <a href="{% url 'form'%}"> + Add</a> <a href="{% url 'logout' %}">Logout</a> <a href="{% url 'index' %}">Refresh</a>
+    <a href="{% url 'view_profile' %}">Profile</a>
+    <a href="{% url 'playlist' %}">Playlist</a>
     <form method="get">
         <input type="text" name="q"  placeholder="search..."/>
         <input type="submit" value="Search"/>
     </form>
+    <img src="{{ user.profile.profile_image.url }}"/>
     {% if albums %}
         <h1>These are list of all Available Albums</h1>
         <ul>
@@ -30,3 +33,5 @@
         {% endfor %}
     {% endif %}
 {% endblock %}
+
+

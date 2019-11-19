@@ -2,6 +2,8 @@ from django.db import models
 from django.urls import reverse
 from django.contrib.auth.models import User
 from django.db.models import Q
+from django.conf import settings
+from django.db.models.signals import post_save
 from django.shortcuts import redirect
 
 AUDIO_FORMAT = (
@@ -66,10 +68,11 @@ class Album(models.Model):
     def __str__(self):
         return self.album_title + '-' + self.artist
 
+
 class Song(models.Model):
     album = models.ForeignKey(Album, on_delete=models.CASCADE)
     real_song = models.FileField(upload_to='music', default='/media/music/leesun.mp3', help_text='Hint: Files must be MP3 or MP4')
-    file_type = models.CharField(choices=AUDIO_FORMAT, default='MPEG3',max_length=100)
+    file_type = models.CharField(choices=AUDIO_FORMAT, default='MPEG3', max_length=100)
     song_title = models.CharField(max_length=100)
     is_favourite = models.BooleanField(default=False)
     objects = SearchSongModelManager()
@@ -80,3 +83,48 @@ class Song(models.Model):
     def __str__(self):
         return self.song_title
 
+
+class Newplaylist(models.Model):
+    name = models.CharField(max_length=100)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    songs = models.ManyToManyField(Song)
+    created_on = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now=True)
+
+    @classmethod
+    def add_to_playlist(cls, owner, new_song, name):
+        name, created = cls.objects.get_or_create(
+            owner=owner, name=name
+        )
+        name.songs.add(new_song)
+
+    @classmethod
+    def remove_from_playlist(cls, owner, songs, name):
+        name, created = cls.objects.get_or_create(
+            owner=owner, name=name
+        )
+        name.songs.remove(songs)
+
+    def __str__(self):
+        return self.name+'--'+self.owner.username
+
+
+
+class Profile(models.Model):
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
+
+    profile_image = models.FileField(default='anonymous1.png')
+
+    def __str__(self):
+        return self.user.username
+
+
+
+def create_profile(sender,**kwargs):
+    if kwargs['created']:
+        user_profile = Profile.objects.create(user=kwargs['instance'])
+
+post_save.connect(create_profile,sender=User)

@@ -12,3 +12,99 @@ body{
     margin:0 auto;
 }
 
+.toshowplaylist{
+    cursor:pointer;
+}
+
+.display-playlist {
+ position: relative;
+ padding: 0.5em 0.5em 0.5em 0.25em;
+ display:none;
+}
+
+.display-playlist ul {
+ max-height: 7.25em;
+ overflow: auto;
+list-style: none;
+padding-inline-start: 0px;
+}
+
+.display-playlist ul li {
+ border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.display-playlist ul li:nth-child(odd) {
+ background-color: rgba(255,255,255,0.03);
+}
+
+.display-playlist ul li a {
+ display: block;
+ padding: 0.5em 0.25em 0.5em 0.75em;
+ margin-right: 0px;
+ font-size: 90%;
+ vertical-align: middle;
+}
+
+.display-playlist ul li:hover a {
+ background-color: rgba(0,0,0,0.20);
+ /*background-image: url(../image/black-20.png);*/
+ background-image: none, none;
+ cursor: pointer;
+}
+
+.display-playlist ul li.selected a {
+ background-color: rgba(0,0,0,0.25);
+ /*background-image: url(../image/black-20.png);*/
+ background-image: none, none;
+}
+
+.display-playlist ul::-webkit-scrollbar {
+ width: 10px;
+}
+
+
+.display-playlist ul::-webkit-scrollbar-track {
+		background-color: rgba(0,0,0,0.4);
+}
+
+.display-playlist ul::-webkit-scrollbar-track {
+ background: rgba(0,0,0,0.33);
+ border-radius: 10px;
+}
+
+.display-playlist ul::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+ background: #fff;
+}
+
+.sm2-playlist-back{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sm2-playlist-back h3{
+    display:inline-block;
+}
+
+.sm2-playlist-back .theli{
+    display:inline-block;
+    text-align: right;
+
+}
+
+.sm2-playlist-back li a{
+    cursor: pointer;
+}
+
+.theli{
+    margin: 0 60px;
+}
+
+
+
+
+
+
+
+

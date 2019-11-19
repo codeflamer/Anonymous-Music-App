@@ -1,0 +1,11 @@
+
+{% extends 'tutorials/base.html' %}
+
+{% block body %}
+    <a href="{% url 'index' %}">Go to Albums</a>
+    <a href="{% url 'createplaylist' %}">create</a>
+    <h2>My Playlists</h2>
+    {% for playlist in playlists %}
+        <li><a href="{% url 'playlistsongs' playlist.name %}">{{ playlist.name }}</a></li>
+    {% endfor %}
+{% endblock %}
